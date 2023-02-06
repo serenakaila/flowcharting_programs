@@ -1,0 +1,60 @@
+using System;
+class Program {
+  public static void Main (string[] args) {
+  //int i;  
+    int sum=0;
+    for (int n=25; n<=75;n=n+1)
+    
+    
+    {
+
+
+     sum=sum+n; 
+      
+    }
+
+    Console.WriteLine(sum);
+    //Console.WriteLine ("Hello World");
+  }
+}
+
+
+
+using System;
+
+class Program {
+  public static void Main (string[]
+args) {
+  int sum=0,n=25; //intiialization
+    
+   while(n<=75)
+   { //condition
+      //Console.WriteLine(sum);
+         sum=sum+n;
+        n=n+1;//increment 
+
+    }
+
+    Console.WriteLine(sum);
+    }
+  
+}
+
+
+
+
+using System;
+class Program {
+  public static void Main (string[] args) {
+ int n=25,sum=0; //initialization
+    do 
+    {
+ 
+      
+      sum=sum+n;
+      n=n+1; //increment
+    }while(n<=75);   //condition
+    
+      Console.WriteLine (sum);
+  }
+}
